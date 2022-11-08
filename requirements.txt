@@ -1,0 +1,16 @@
+python-dotenv
+pytest-cov==3.0.0
+python-dotenv==0.19.2
+pytest==7.0.1
+sklearn
+matplotlib
+pandas==1.4.3
+numpy==1.23.1
+tqdm
+requests==2.28.1
+torch
+torchtext
+transformers
+sentence-transformers
+seaborn
+captum

@@ -1,0 +1,888 @@
+[
+     {
+          "LUHF": "not_luhf",
+          "utterances_annotations": [
+               {
+                    "caller_name": "nlg",
+                    "intent": "intro_assistant_1",
+                    "entities": [
+                         {
+                              "entity": "recording_warning"
+                         }
+                    ]
+               },
+               {
+                    "caller_name": "nlg",
+                    "intent": "intro_assistant_2",
+                    "entities": []
+               },
+               {
+                    "caller_name": "nlu",
+                    "intent": "schedule",
+                    "entities": [],
+                    "nlg_history": [
+                         "intro_assistant_1",
+                         "intro_assistant_2"
+                    ]
+               },
+               {
+                    "caller_name": "nlg",
+                    "intent": "disambiguate_user_profile",
+                    "entities": [
+                         {
+                              "entity": "device_year"
+                         },
+                         {
+                              "entity": "device_make"
+                         },
+                         {
+                              "entity": "device_model"
+                         }
+                    ]
+               },
+               {
+                    "caller_name": "nlg",
+                    "intent": "disambiguate_user_profile",
+                    "entities": [
+                         {
+                              "entity": "device_year"
+                         },
+                         {
+                              "entity": "device_make"
+                         },
+                         {
+                              "entity": "device_model"
+                         }
+                    ]
+               },
+               {
+                    "caller_name": "nlu",
+                    "intent": "confirm",
+                    "entities": [],
+                    "nlg_history": [
+                         "intro_assistant_1",
+                         "intro_assistant_2",
+                         "disambiguate_user_profile",
+                         "disambiguate_user_profile"
+                    ]
+               },
+               {
+                    "caller_name": "nlg",
+                    "intent": "ask_for_battery_health",
+                    "entities": []
+               },
+               {
+                    "caller_name": "nlu",
+                    "intent": "negate",
+                    "entities": [],
+                    "nlg_history": [
+                         "intro_assistant_1",
+                         "intro_assistant_2",
+                         "disambiguate_user_profile",
+                         "disambiguate_user_profile",
+                         "ask_for_battery_health"
+                    ]
+               },
+               {
+                    "caller_name": "nlg",
+                    "intent": "ask_first_name",
+                    "entities": []
+               },
+               {
+                    "caller_name": "nlu",
+                    "intent": "inform",
+                    "entities": [
+                         {
+                              "entity": "client_name"
+                         },
+                         {
+                              "entity": "client_name"
+                         }
+                    ],
+                    "nlg_history": [
+                         "intro_assistant_1",
+                         "intro_assistant_2",
+                         "disambiguate_user_profile",
+                         "disambiguate_user_profile",
+                         "ask_for_battery_health",
+                         "ask_first_name"
+                    ]
+               },
+               {
+                    "caller_name": "nlg",
+                    "intent": "ask_last_name",
+                    "entities": []
+               },
+               {
+                    "caller_name": "nlu",
+                    "intent": "inform",
+                    "entities": [
+                         {
+                              "entity": "client_name"
+                         }
+                    ],
+                    "nlg_history": [
+                         "intro_assistant_1",
+                         "intro_assistant_2",
+                         "disambiguate_user_profile",
+                         "disambiguate_user_profile",
+                         "ask_for_battery_health",
+                         "ask_first_name",
+                         "ask_last_name"
+                    ]
+               },
+               {
+                    "caller_name": "nlg",
+                    "intent": "ask_desired_service",
+                    "entities": []
+               },
+               {
+                    "caller_name": "nlu",
+                    "intent": "user_initial_request",
+                    "entities": [
+                         {
+                              "entity": "type_of_repair"
+                         }
+                    ],
+                    "nlg_history": [
+                         "intro_assistant_1",
+                         "intro_assistant_2",
+                         "disambiguate_user_profile",
+                         "disambiguate_user_profile",
+                         "ask_for_battery_health",
+                         "ask_first_name",
+                         "ask_last_name",
+                         "ask_desired_service"
+                    ]
+               },
+               {
+                    "caller_name": "nlg",
+                    "intent": "ask_additional_service",
+                    "entities": []
+               },
+               {
+                    "caller_name": "nlu",
+                    "intent": "user_initial_request",
+                    "entities": [],
+                    "nlg_history": [
+                         "intro_assistant_1",
+                         "intro_assistant_2",
+                         "disambiguate_user_profile",
+                         "disambiguate_user_profile",
+                         "ask_for_battery_health",
+                         "ask_first_name",
+                         "ask_last_name",
+                         "ask_desired_service",
+                         "ask_additional_service"
+                    ]
+               },
+               {
+                    "caller_name": "nlg",
+                    "intent": "transportation_of_device",
+                    "entities": [
+                         {
+                              "entity": "ask_to_schedule"
+                         },
+                         {
+                              "entity": "ask_means_of_transportation"
+                         }
+                    ]
+               },
+               {
+                    "caller_name": "nlu",
+                    "intent": "negate",
+                    "entities": [],
+                    "nlg_history": [
+                         "intro_assistant_1",
+                         "intro_assistant_2",
+                         "disambiguate_user_profile",
+                         "disambiguate_user_profile",
+                         "ask_for_battery_health",
+                         "ask_first_name",
+                         "ask_last_name",
+                         "ask_desired_service",
+                         "ask_additional_service",
+                         "transportation_of_device"
+                    ]
+               }
+          ]
+     },
+     {
+          "LUHF": "not_luhf",
+          "utterances_annotations": [
+               {
+                    "caller_name": "nlg",
+                    "intent": "intro_assistant_1",
+                    "entities": [
+                         {
+                              "entity": "recording_warning"
+                         }
+                    ]
+               },
+               {
+                    "caller_name": "nlg",
+                    "intent": "intro_assistant_2",
+                    "entities": []
+               },
+               {
+                    "caller_name": "nlu",
+                    "intent": "schedule",
+                    "entities": [],
+                    "nlg_history": [
+                         "intro_assistant_1",
+                         "intro_assistant_2"
+                    ]
+               },
+               {
+                    "caller_name": "nlg",
+                    "intent": "disambiguate_user_profile",
+                    "entities": [
+                         {
+                              "entity": "device_make"
+                         },
+                         {
+                              "entity": "device_year"
+                         },
+                         {
+                              "entity": "device_model"
+                         }
+                    ]
+               },
+               {
+                    "caller_name": "nlu",
+                    "intent": "confirm",
+                    "entities": [],
+                    "nlg_history": [
+                         "intro_assistant_1",
+                         "intro_assistant_2",
+                         "disambiguate_user_profile"
+                    ]
+               },
+               {
+                    "caller_name": "nlg",
+                    "intent": "ask_for_battery_health",
+                    "entities": []
+               },
+               {
+                    "caller_name": "nlu",
+                    "intent": "inform",
+                    "entities": [
+                         {
+                              "entity": "numeric"
+                         }
+                    ],
+                    "nlg_history": [
+                         "intro_assistant_1",
+                         "intro_assistant_2",
+                         "disambiguate_user_profile",
+                         "ask_for_battery_health"
+                    ]
+               },
+               {
+                    "caller_name": "nlg",
+                    "intent": "ask_desired_service",
+                    "entities": []
+               },
+               {
+                    "caller_name": "nlu",
+                    "intent": "user_initial_request",
+                    "entities": [
+                         {
+                              "entity": "type_of_repair"
+                         }
+                    ],
+                    "nlg_history": [
+                         "intro_assistant_1",
+                         "intro_assistant_2",
+                         "disambiguate_user_profile",
+                         "ask_for_battery_health",
+                         "ask_desired_service"
+                    ]
+               },
+               {
+                    "caller_name": "nlg",
+                    "intent": "ask_additional_service",
+                    "entities": []
+               },
+               {
+                    "caller_name": "nlu",
+                    "intent": "negate",
+                    "entities": [],
+                    "nlg_history": [
+                         "intro_assistant_1",
+                         "intro_assistant_2",
+                         "disambiguate_user_profile",
+                         "ask_for_battery_health",
+                         "ask_desired_service",
+                         "ask_additional_service"
+                    ]
+               },
+               {
+                    "caller_name": "nlg",
+                    "intent": "transportation_of_device",
+                    "entities": [
+                         {
+                              "entity": "ask_to_schedule"
+                         },
+                         {
+                              "entity": "ask_means_of_transportation"
+                         }
+                    ]
+               },
+               {
+                    "caller_name": "nlu",
+                    "intent": "negate",
+                    "entities": [],
+                    "nlg_history": [
+                         "intro_assistant_1",
+                         "intro_assistant_2",
+                         "disambiguate_user_profile",
+                         "ask_for_battery_health",
+                         "ask_desired_service",
+                         "ask_additional_service",
+                         "transportation_of_device"
+                    ]
+               },
+               {
+                    "caller_name": "nlg",
+                    "intent": "propose_other_transportation_of_device",
+                    "entities": [
+                         {
+                              "entity": "ask_means_of_transportation"
+                         },
+                         {
+                              "entity": "mention_means_of_transportation"
+                         }
+                    ]
+               },
+               {
+                    "caller_name": "nlu",
+                    "intent": "confirm",
+                    "entities": [],
+                    "nlg_history": [
+                         "intro_assistant_1",
+                         "intro_assistant_2",
+                         "disambiguate_user_profile",
+                         "ask_for_battery_health",
+                         "ask_desired_service",
+                         "ask_additional_service",
+                         "transportation_of_device",
+                         "propose_other_transportation_of_device"
+                    ]
+               },
+               {
+                    "caller_name": "nlg",
+                    "intent": "inform_schedule_inspection",
+                    "entities": []
+               },
+               {
+                    "caller_name": "nlg",
+                    "intent": "propose_date",
+                    "entities": [
+                         {
+                              "entity": "available_slot_to_schedule"
+                         },
+                         {
+                              "entity": "transportation_type_selection"
+                         }
+                    ]
+               },
+               {
+                    "caller_name": "nlu",
+                    "intent": "q_contacts_sales_department",
+                    "entities": [],
+                    "nlg_history": [
+                         "intro_assistant_1",
+                         "intro_assistant_2",
+                         "disambiguate_user_profile",
+                         "ask_for_battery_health",
+                         "ask_desired_service",
+                         "ask_additional_service",
+                         "transportation_of_device",
+                         "propose_other_transportation_of_device",
+                         "inform_schedule_inspection",
+                         "propose_date"
+                    ]
+               },
+               {
+                    "caller_name": "nlg",
+                    "intent": "propose_date",
+                    "entities": [
+                         {
+                              "entity": "available_slot_to_schedule"
+                         },
+                         {
+                              "entity": "transportation_type_selection"
+                         }
+                    ]
+               },
+               {
+                    "caller_name": "nlu",
+                    "intent": "salutation",
+                    "entities": [],
+                    "nlg_history": [
+                         "intro_assistant_1",
+                         "intro_assistant_2",
+                         "disambiguate_user_profile",
+                         "ask_for_battery_health",
+                         "ask_desired_service",
+                         "ask_additional_service",
+                         "transportation_of_device",
+                         "propose_other_transportation_of_device",
+                         "inform_schedule_inspection",
+                         "propose_date",
+                         "propose_date"
+                    ]
+               },
+               {
+                    "caller_name": "nlg",
+                    "intent": "did_not_understand",
+                    "entities": []
+               },
+               {
+                    "caller_name": "nlg",
+                    "intent": "propose_date",
+                    "entities": [
+                         {
+                              "entity": "available_slot_to_schedule"
+                         },
+                         {
+                              "entity": "transportation_type_selection"
+                         }
+                    ]
+               },
+               {
+                    "caller_name": "nlu",
+                    "intent": "q_transport",
+                    "entities": [
+                         {
+                              "entity": "time_indication"
+                         }
+                    ],
+                    "nlg_history": [
+                         "intro_assistant_1",
+                         "intro_assistant_2",
+                         "disambiguate_user_profile",
+                         "ask_for_battery_health",
+                         "ask_desired_service",
+                         "ask_additional_service",
+                         "transportation_of_device",
+                         "propose_other_transportation_of_device",
+                         "inform_schedule_inspection",
+                         "propose_date",
+                         "propose_date",
+                         "did_not_understand",
+                         "propose_date"
+                    ]
+               },
+               {
+                    "caller_name": "nlg",
+                    "intent": "time_asked_unavailable_propose_new",
+                    "entities": [
+                         {
+                              "entity": "available_slot_to_schedule"
+                         },
+                         {
+                              "entity": "user_request_start_time"
+                         },
+                         {
+                              "entity": "transportation_type_selection"
+                         }
+                    ]
+               },
+               {
+                    "caller_name": "nlu",
+                    "intent": "confirm",
+                    "entities": [],
+                    "nlg_history": [
+                         "intro_assistant_1",
+                         "intro_assistant_2",
+                         "disambiguate_user_profile",
+                         "ask_for_battery_health",
+                         "ask_desired_service",
+                         "ask_additional_service",
+                         "transportation_of_device",
+                         "propose_other_transportation_of_device",
+                         "inform_schedule_inspection",
+                         "propose_date",
+                         "propose_date",
+                         "did_not_understand",
+                         "propose_date",
+                         "time_asked_unavailable_propose_new"
+                    ]
+               },
+               {
+                    "caller_name": "nlg",
+                    "intent": "confirm_date_scheduled",
+                    "entities": []
+               },
+               {
+                    "caller_name": "nlu",
+                    "intent": "confirm",
+                    "entities": [],
+                    "nlg_history": [
+                         "intro_assistant_1",
+                         "intro_assistant_2",
+                         "disambiguate_user_profile",
+                         "ask_for_battery_health",
+                         "ask_desired_service",
+                         "ask_additional_service",
+                         "transportation_of_device",
+                         "propose_other_transportation_of_device",
+                         "inform_schedule_inspection",
+                         "propose_date",
+                         "propose_date",
+                         "did_not_understand",
+                         "propose_date",
+                         "time_asked_unavailable_propose_new",
+                         "confirm_date_scheduled"
+                    ]
+               }
+          ]
+     },
+     {
+          "LUHF": "luhf",
+          "utterances_annotations": [
+               {
+                    "caller_name": "nlg",
+                    "intent": "intro_assistant_1",
+                    "entities": [
+                         {
+                              "entity": "recording_warning"
+                         }
+                    ]
+               },
+               {
+                    "caller_name": "nlg",
+                    "intent": "intro_assistant_2",
+                    "entities": []
+               },
+               {
+                    "caller_name": "nlu",
+                    "intent": "schedule",
+                    "entities": [],
+                    "nlg_history": [
+                         "intro_assistant_1",
+                         "intro_assistant_2"
+                    ]
+               },
+               {
+                    "caller_name": "nlg",
+                    "intent": "ask_if_current_client",
+                    "entities": []
+               },
+               {
+                    "caller_name": "nlu",
+                    "intent": "confirm",
+                    "entities": [],
+                    "nlg_history": [
+                         "intro_assistant_1",
+                         "intro_assistant_2",
+                         "ask_if_current_client"
+                    ]
+               },
+               {
+                    "caller_name": "nlg",
+                    "intent": "confirm_phone_number",
+                    "entities": [
+                         {
+                              "entity": "user_phone_suffix"
+                         }
+                    ]
+               },
+               {
+                    "caller_name": "nlu",
+                    "intent": "confirm",
+                    "entities": [],
+                    "nlg_history": [
+                         "intro_assistant_1",
+                         "intro_assistant_2",
+                         "ask_if_current_client",
+                         "confirm_phone_number"
+                    ]
+               },
+               {
+                    "caller_name": "nlg",
+                    "intent": "new_user_profile_brand_model_year",
+                    "entities": []
+               },
+               {
+                    "caller_name": "nlu",
+                    "intent": "inform",
+                    "entities": [
+                         {
+                              "entity": "year"
+                         },
+                         {
+                              "entity": "brand_device"
+                         },
+                         {
+                              "entity": "model_device"
+                         }
+                    ],
+                    "nlg_history": [
+                         "intro_assistant_1",
+                         "intro_assistant_2",
+                         "ask_if_current_client",
+                         "confirm_phone_number",
+                         "new_user_profile_brand_model_year"
+                    ]
+               },
+               {
+                    "caller_name": "nlg",
+                    "intent": "ask_for_battery_health",
+                    "entities": []
+               },
+               {
+                    "caller_name": "nlu",
+                    "intent": "inform",
+                    "entities": [
+                         {
+                              "entity": "numeric"
+                         }
+                    ],
+                    "nlg_history": [
+                         "intro_assistant_1",
+                         "intro_assistant_2",
+                         "ask_if_current_client",
+                         "confirm_phone_number",
+                         "new_user_profile_brand_model_year",
+                         "ask_for_battery_health"
+                    ]
+               },
+               {
+                    "caller_name": "nlg",
+                    "intent": "ask_first_name",
+                    "entities": []
+               },
+               {
+                    "caller_name": "nlu",
+                    "intent": "inform",
+                    "entities": [
+                         {
+                              "entity": "client_name"
+                         }
+                    ],
+                    "nlg_history": [
+                         "intro_assistant_1",
+                         "intro_assistant_2",
+                         "ask_if_current_client",
+                         "confirm_phone_number",
+                         "new_user_profile_brand_model_year",
+                         "ask_for_battery_health",
+                         "ask_first_name"
+                    ]
+               },
+               {
+                    "caller_name": "nlg",
+                    "intent": "ask_last_name",
+                    "entities": []
+               },
+               {
+                    "caller_name": "nlu",
+                    "intent": "inform",
+                    "entities": [
+                         {
+                              "entity": "client_name"
+                         }
+                    ],
+                    "nlg_history": [
+                         "intro_assistant_1",
+                         "intro_assistant_2",
+                         "ask_if_current_client",
+                         "confirm_phone_number",
+                         "new_user_profile_brand_model_year",
+                         "ask_for_battery_health",
+                         "ask_first_name",
+                         "ask_last_name"
+                    ]
+               },
+               {
+                    "caller_name": "nlg",
+                    "intent": "ask_desired_service",
+                    "entities": []
+               },
+               {
+                    "caller_name": "nlu",
+                    "intent": "user_initial_request",
+                    "entities": [
+                         {
+                              "entity": "type_of_repair"
+                         }
+                    ],
+                    "nlg_history": [
+                         "intro_assistant_1",
+                         "intro_assistant_2",
+                         "ask_if_current_client",
+                         "confirm_phone_number",
+                         "new_user_profile_brand_model_year",
+                         "ask_for_battery_health",
+                         "ask_first_name",
+                         "ask_last_name",
+                         "ask_desired_service"
+                    ]
+               },
+               {
+                    "caller_name": "nlg",
+                    "intent": "ask_additional_service",
+                    "entities": []
+               },
+               {
+                    "caller_name": "nlu",
+                    "intent": "negate",
+                    "entities": [],
+                    "nlg_history": [
+                         "intro_assistant_1",
+                         "intro_assistant_2",
+                         "ask_if_current_client",
+                         "confirm_phone_number",
+                         "new_user_profile_brand_model_year",
+                         "ask_for_battery_health",
+                         "ask_first_name",
+                         "ask_last_name",
+                         "ask_desired_service",
+                         "ask_additional_service"
+                    ]
+               },
+               {
+                    "caller_name": "nlg",
+                    "intent": "transportation_of_device",
+                    "entities": [
+                         {
+                              "entity": "ask_to_schedule"
+                         },
+                         {
+                              "entity": "ask_means_of_transportation"
+                         }
+                    ]
+               },
+               {
+                    "caller_name": "nlu",
+                    "intent": "confirm",
+                    "entities": [],
+                    "nlg_history": [
+                         "intro_assistant_1",
+                         "intro_assistant_2",
+                         "ask_if_current_client",
+                         "confirm_phone_number",
+                         "new_user_profile_brand_model_year",
+                         "ask_for_battery_health",
+                         "ask_first_name",
+                         "ask_last_name",
+                         "ask_desired_service",
+                         "ask_additional_service",
+                         "transportation_of_device"
+                    ]
+               },
+               {
+                    "caller_name": "nlg",
+                    "intent": "inform_schedule_inspection",
+                    "entities": []
+               },
+               {
+                    "caller_name": "nlg",
+                    "intent": "propose_date",
+                    "entities": [
+                         {
+                              "entity": "transportation_type_selection"
+                         },
+                         {
+                              "entity": "available_slot_to_schedule"
+                         }
+                    ]
+               },
+               {
+                    "caller_name": "nlu",
+                    "intent": "negate",
+                    "entities": [],
+                    "nlg_history": [
+                         "intro_assistant_1",
+                         "intro_assistant_2",
+                         "ask_if_current_client",
+                         "confirm_phone_number",
+                         "new_user_profile_brand_model_year",
+                         "ask_for_battery_health",
+                         "ask_first_name",
+                         "ask_last_name",
+                         "ask_desired_service",
+                         "ask_additional_service",
+                         "transportation_of_device",
+                         "inform_schedule_inspection",
+                         "propose_date"
+                    ]
+               },
+               {
+                    "caller_name": "nlg",
+                    "intent": "ask_time_preference",
+                    "entities": []
+               },
+               {
+                    "caller_name": "nlu",
+                    "intent": "user_proposed_date",
+                    "entities": [
+                         {
+                              "entity": "time_indication"
+                         }
+                    ],
+                    "nlg_history": [
+                         "intro_assistant_1",
+                         "intro_assistant_2",
+                         "ask_if_current_client",
+                         "confirm_phone_number",
+                         "new_user_profile_brand_model_year",
+                         "ask_for_battery_health",
+                         "ask_first_name",
+                         "ask_last_name",
+                         "ask_desired_service",
+                         "ask_additional_service",
+                         "transportation_of_device",
+                         "inform_schedule_inspection",
+                         "propose_date",
+                         "ask_time_preference"
+                    ]
+               },
+               {
+                    "caller_name": "nlg",
+                    "intent": "time_asked_unavailable_propose_new",
+                    "entities": [
+                         {
+                              "entity": "transportation_type_selection"
+                         },
+                         {
+                              "entity": "available_slot_to_schedule"
+                         },
+                         {
+                              "entity": "user_request_start_time"
+                         }
+                    ]
+               },
+               {
+                    "caller_name": "nlu",
+                    "intent": "negate",
+                    "entities": [],
+                    "nlg_history": [
+                         "intro_assistant_1",
+                         "intro_assistant_2",
+                         "ask_if_current_client",
+                         "confirm_phone_number",
+                         "new_user_profile_brand_model_year",
+                         "ask_for_battery_health",
+                         "ask_first_name",
+                         "ask_last_name",
+                         "ask_desired_service",
+                         "ask_additional_service",
+                         "transportation_of_device",
+                         "inform_schedule_inspection",
+                         "propose_date",
+                         "ask_time_preference",
+                         "time_asked_unavailable_propose_new"
+                    ]
+               },
+               {
+                    "caller_name": "nlg",
+                    "intent": "ask_time_preference",
+                    "entities": []
+               }
+          ]
+     }
+]
